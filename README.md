@@ -1,12 +1,13 @@
 # BlackJack Vite
 
-Pasos para ejecutar proyecto:
+Steps to Execute the project:
 
-1. Clonar repositorio
-2. Ejecutar ```npm install``` para reconstruir los módulos de node
-3. Correr el devServer ```npm run dev```
+1. Clon repository
+2. Type in Terminal ```npm install``` to instale node modules
+3. Run Server ```npm run dev```
+4. Open the folder in ```localhost:3000```
 
-## Producción
+## Production
 
-1. Ejecutar ```npm run build```
-2. Tomar la carpeta ```dist``` y desplegarla
+1. Execute ```npm run build```
+2. Select the foler ```dist``` deploy
