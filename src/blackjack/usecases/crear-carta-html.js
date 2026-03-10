@@ -6,7 +6,7 @@
  */
 export const crearCartaHTML = ( carta ) => {
 
-    if ( !carta ) throw new Error('La carta es un argumento obligatorio');
+    if ( !carta ) throw new Error('Card is a required argument');
 
     // <img class="carta" src="assets/cartas/2C.png">
     const imgCarta = document.createElement('img');

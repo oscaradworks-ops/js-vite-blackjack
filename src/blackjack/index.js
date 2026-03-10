@@ -44,13 +44,13 @@ import { crearDeck, pedirCarta, valorCarta, turnoComputadora, crearCartaHTML } f
      divCartasJugador.append( imgCarta );
  
      if ( puntosJugador > 21 ) {
-         console.warn('Lo siento mucho, perdiste');
+         console.warn('Sorry, you lost');
          btnPedir.disabled   = true;
          btnDetener.disabled = true;
          turnoComputadora( puntosJugador, puntosHTML[1], divCartasComputadora, deck );
  
      } else if ( puntosJugador === 21 ) {
-         console.warn('21, genial!');
+         console.warn('21, great!');
          btnPedir.disabled   = true;
          btnDetener.disabled = true;
          turnoComputadora( puntosJugador, puntosHTML[1], divCartasComputadora, deck );

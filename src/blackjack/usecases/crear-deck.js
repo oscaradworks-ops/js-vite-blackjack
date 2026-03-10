@@ -12,10 +12,10 @@ import _ from 'underscore';
 export const crearDeck = (tiposDeCarta, tiposEspeciales) => {
 
     if ( !tiposDeCarta || tiposDeCarta.length === 0  ) 
-        throw new Error('tiposDeCarta es obligatorio como un arreglo de string');
+        throw new Error('tiposDeCarta is required as an array of strings');
     
     if ( !tiposEspeciales || tiposEspeciales.length === 0  ) 
-        throw new Error('tiposEspeciales es obligatorio como un arreglo de string');
+        throw new Error('tiposEspeciales is required as an array of strings');
 
     
     let deck = [];

@@ -9,8 +9,8 @@ import { pedirCarta, valorCarta, crearCartaHTML } from './';
  */
 export const turnoComputadora = ( puntosMinimos, puntosHTML, divCartasComputadora, deck = [] ) => {
 
-    if ( !puntosMinimos ) throw new Error('Puntos mínimos son necesarios');
-    if ( !puntosHTML ) throw new Error('Argumento puntosHTML es necesario');
+    if ( !puntosMinimos ) throw new Error('Minimum points are required');
+    if ( !puntosHTML ) throw new Error('puntosHTML argument is required');
 
     let puntosComputadora = 0;
  
@@ -31,13 +31,13 @@ export const turnoComputadora = ( puntosMinimos, puntosHTML, divCartasComputador
 
     setTimeout(() => {
         if( puntosComputadora === puntosMinimos ) {
-            alert('Nadie gana :(');
+            alert('Nobody wins :(');
         } else if ( puntosMinimos > 21 ) {
-            alert('Computadora gana')
+            alert('Computer wins')
         } else if( puntosComputadora > 21 ) {
-            alert('Jugador Gana');
+            alert('Player wins');
         } else {
-            alert('Computadora Gana')
+            alert('Computer wins')
         }
     }, 100 );
 }
